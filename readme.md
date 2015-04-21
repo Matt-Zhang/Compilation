@@ -1,0 +1,1 @@
+This project contained the lab1-lab4 in compilation class in NJU. It realized a static compiler compiling C-- source code to MIPS machine code which is able to run on irsim virtual machine.

@@ -1,0 +1,58 @@
+FUNCTION main : 
+v1 := #12 - #11 
+v2 := #3 
+t15 := #30 / #3 
+t12 := #7 + t15 
+v3 := t12 - #4 
+v4 := v1 + v2 
+t26 := v1 + v2 
+v5 := t26 + v3 
+t31 := v1 + v2 
+v6 := t31 + v3 
+v7 := #42 
+v8 := #0 
+t44 := v1 + v2 
+t42 := t44 + v3 
+t40 := t42 - v4 
+t38 := t40 - v5 
+v6 := t38 + v6 
+LABEL label2 : 
+t49 := v2 - v1 
+IF v6 <= t49 GOTO label1 
+t57 := v6 - v2 
+t55 := t57 + t58 
+t53 := t55 + t56 
+t73 := v8 * #4 
+t70 := v7 + t73 
+t68 := t70 + #3 
+t66 := t68 + #4 
+v7 := t66 + #5 
+t77 := v8 + #1 
+v8 := t77 + #0 
+t85 := v8 / #3 
+t84 := t85 * #3 
+t81 := v8 - t84 
+t91 := v1 - v1 
+t89 := t91 + v2 
+t82 := t89 - v2 
+IF t81 != t82 GOTO label3 
+v6 := v6 + #2 
+LABEL label3 : 
+v6 := v6 - #1 
+GOTO label2 
+LABEL label1 : 
+WRITE v7 
+v8 := v7 
+LABEL label5 : 
+IF v7 < #1222 GOTO label4 
+v8 := v7 + #1024 
+v7 := v7 - #1 
+v8 := v7 
+GOTO label5 
+LABEL label4 : 
+WRITE v7 
+v1 := v1 + v2 
+v2 := v1 + v2 
+v3 := v1 + v2 
+WRITE v3 
+RETURN #0 
